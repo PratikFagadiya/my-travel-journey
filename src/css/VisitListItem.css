@@ -1,6 +1,9 @@
 .visit_item {
+    justify-content: center;
+    align-items: center;
     display: flex;
-overflow: hidden;
+    height: 210px;
+    align-content: center;
 }
 
 .img {
@@ -13,6 +16,7 @@ overflow: hidden;
     flex-direction: column;
 }
 
-.place_description{
-        display: inline-block;
+.place_description {
+    display: flex;
+    max-height: 30px;
 }
