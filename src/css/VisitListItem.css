@@ -1,0 +1,18 @@
+.visit_item {
+    display: flex;
+overflow: hidden;
+}
+
+.img {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.place_description{
+        display: inline-block;
+}

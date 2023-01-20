@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'localPopins';
+    src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'localPopins';
+    src: url(../fonts/Poppins-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: white;
+    font-family: localPopins;
+    font-weight: bold;
+}
