@@ -6,7 +6,8 @@ function App() {
     return (<div className="App">
         <NavHeader navName={'My Travel Journey'}/>
         <VisitListItem/>
-        <Footer name={'Pratik'}/>
+        <VisitListItem/>
+        <Footer name={'Pratik Fagadiya'}/>
     </div>);
 }
 

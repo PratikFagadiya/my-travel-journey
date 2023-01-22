@@ -1,9 +1,37 @@
-.visit_item {
+@font-face {
+    font-family: 'localPopins';
+    src: url(../fonts/Poppins-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'localPopins';
+    src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'localPopins';
+    src: url(../fonts/Poppins-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+.parent_visit_item_card {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    height: 210px;
+    height: 280px;
     align-content: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.visit_item {
+    align-items: center;
+    display: flex;
 }
 
 .img {
@@ -11,12 +39,59 @@
     border-radius: 10px;
 }
 
+.section_location {
+    display: flex;
+    align-items: center;
+}
+
+.place_location {
+    margin-left: 5px;
+    font-family: localPopins;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    color: #2B283A;
+}
+
+.place_location_link {
+    margin-left: 15px;
+    font-family: localPopins;
+    font-weight: normal;
+    color: #918E9B;
+    font-size: 12px;
+}
+
+.place_name {
+    font-family: localPopins;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2B283A;
+}
+
+.place_visit_date {
+    margin-top: 10px;
+    font-family: localPopins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    word-spacing: 20px;
+    color: #2B283A;
+}
+
 .content {
     display: flex;
+    margin-left: 20px;
     flex-direction: column;
 }
 
 .place_description {
-    display: flex;
-    max-height: 30px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: localPopins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #2B283A;
 }
