@@ -13,7 +13,7 @@ function App() {
             title={item.title}
             country={item.country}
             placeLink={item.placeLink}
-            img={item.img}
+            locationImg={item.img}
             startDate={item.duration.startDate}
             endDate={item.duration.endDate}
             description={item.description}

@@ -1,16 +1,17 @@
 import '../css/VisitListItem.css'
 import LocationIcon from '../imgs/Fill 219.svg'
 
-export default function VisitListItem({title, country, placeLink, img, startDate, endDate, description}) {
+export default function VisitListItem({title, country, placeLink, locationImg, startDate, endDate, description}) {
     return (<div className={'parent_visit_item_card'}>
 
             <div className={'visit_item'}>
 
-                <img className={'img'} height={'235px'} width={'180px'} src={img} alt={'Place Image'}/>
+                <img src={locationImg} alt={'Place'} className={'img'} height={'235px'} width={'180px'}/>
                 <div className={'content'}>
 
                     <section className={'section_location'}>
-                        <img className={'place_img'} src={LocationIcon} width={'15px'} height={'15px'} alt={'location'}/>
+                        <img className={'place_img'} src={LocationIcon} width={'15px'} height={'15px'}
+                             alt={'location'}/>
                         <span className={'place_location'}>{country}</span>
 
                         <a className={'place_location_link'}
