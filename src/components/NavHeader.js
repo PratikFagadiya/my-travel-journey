@@ -5,7 +5,7 @@ export default function NavHeader({navName}) {
     return (
         <div>
             <nav className={'nav'}>
-                <img src={NavLogo}/>
+                <img src={NavLogo} alt={'Nav Logo'}/>
                 <span>{navName}</span>
             </nav>
         </div>
