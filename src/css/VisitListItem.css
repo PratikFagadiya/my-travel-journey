@@ -21,10 +21,11 @@
 
 .parent_visit_item_card {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 280px;
     align-content: center;
+    min-width: 60%;
     max-width: 60%;
     margin: auto;
 }
@@ -37,6 +38,7 @@
 .img {
     background-color: aqua;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .section_location {
